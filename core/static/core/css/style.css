@@ -1,0 +1,66 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+header {
+    background-color: #243b55;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    background-color: #141e30;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+nav a:hover {
+    color: #00c6ff;
+}
+
+.container {
+    padding: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+button {
+    background-color: #243b55;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #141e30;
+}
+
+input, select, textarea {
+    padding: 10px;
+    margin: 8px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
